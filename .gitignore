@@ -1,0 +1,8 @@
+.DS_Store
+
+# IDEs
+*.komodoproject
+.vscode/
+
+# dependencies
+node_modules/
