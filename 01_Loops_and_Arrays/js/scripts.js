@@ -17,6 +17,8 @@ window.onload = function () {
   let errorMsgs = [];
   let contacts = [];
 
+  const errorMsgDiv = document.getElementById("error-msg");
+
   // Form fields
   const contactFNameField = document.getElementById("contactFName");
   const contactLNameField = document.getElementById("contactLName");
@@ -236,6 +238,11 @@ window.onload = function () {
     }
   }
 
+  function clearErrorMsgs() {
+    errorMsgs = [];
+    errorMsgDiv.innerHTML = "";
+  }
+
   // Declare vars for error message
   const errorMsgPrefix = "Error:";
 
@@ -246,10 +253,7 @@ window.onload = function () {
   addContactForm.addEventListener("reset", function (evt) {
     console.log("\naddContactForm Form Reset.");
 
-    // Reset Error Message
-    errorMsgs = [];
-    document.getElementById("error-msg").innerHTML = "";
-
+    clearErrorMsgs();
     resetFormFieldVarValues();
 
     // Set the focus of the cursor in the First Name Field
@@ -265,10 +269,7 @@ window.onload = function () {
     // Get the Error Message Span
     const errorMsgSpan = document.getElementById("error-msg");
 
-    // Reset error message(s)
-    errorMsgSpan.innerHTML = "";
-    errorMsgs = [];
-
+    clearErrorMsgs();
     getFormFieldValues();
 
     // Validate the User Input
