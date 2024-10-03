@@ -274,14 +274,14 @@ window.onload = function () {
   }
 
   // Listen for Form Reset Event
-  addContactForm.addEventListener("reset", function (evt) {
+  addContactForm.addEventListener("reset", (evt) => {
     clearErrorMsgs();
     resetFormFieldValues();
     fieldElements.contactFNameField.focus();
   });
 
   // Listen for Form Submit Event
-  addContactForm.addEventListener("submit", function (evt) {
+  addContactForm.addEventListener("submit", (evt) => {
     // Prevent Form from submitting and reloading the page
     evt.preventDefault();
 
