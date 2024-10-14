@@ -40,9 +40,10 @@ window.onload = function () {
         console.log(persistedContacts);
 
         // loop through persistedContacts
-        for (let i in persistedContacts) {
+        // Loop ex 1
+        const len = persistedContacts.length;
+        for (let i = 0; i < len; i++) {
           let contact = persistedContacts[i];
-          console.log(contact);
 
           const newContact = buildContact(
             contact.contactFName, contact.contactLName,
@@ -50,7 +51,29 @@ window.onload = function () {
             contact.contactPhoneAreaCode, contact.contactPhonePrefix, contact.contactPhoneNumber,
             contact.contactBirthdayMonth, contact.contactBirthdayDay);
           contacts.push(newContact);
-        };
+        }
+
+        // Loop ex 2
+        // for (let i in persistedContacts) {
+        //   let contact = persistedContacts[i];
+
+        //   const newContact = buildContact(
+        //     contact.contactFName, contact.contactLName,
+        //     contact.contactEmail,
+        //     contact.contactPhoneAreaCode, contact.contactPhonePrefix, contact.contactPhoneNumber,
+        //     contact.contactBirthdayMonth, contact.contactBirthdayDay);
+        //   contacts.push(newContact);
+        // };
+
+        // "Loop" ex 3
+        // persistedContacts.forEach(contact => {
+        //   const newContact = buildContact(
+        //     contact.contactFName, contact.contactLName,
+        //     contact.contactEmail,
+        //     contact.contactPhoneAreaCode, contact.contactPhonePrefix, contact.contactPhoneNumber,
+        //     contact.contactBirthdayMonth, contact.contactBirthdayDay);
+        //   contacts.push(newContact);
+        // });
 
         displayContacts();
       };
@@ -266,10 +289,9 @@ window.onload = function () {
 
     // Loop through contacts Array and add the current Contact (at index in Array)
     // to page each time through the loop
-    const len = contacts.length; // Get number of Contacts in contacts Array
-    for (let indx = 0; indx < len; indx++) {
-      contactsDiv.innerHTML += contacts[indx].display();
-    }
+    contacts.forEach(contact => {
+      contactsDiv.innerHTML += contact.display();
+    });
   }
 
   function clearErrorMsgs() {
