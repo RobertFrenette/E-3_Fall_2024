@@ -29,6 +29,7 @@ function checkForExistingContacts() {
 function saveContacts() {
     localStorage.setItem('persistedContacts', JSON.stringify(contacts));
     localStorageMsg.innerHTML = contactsSavedMessage;
+    toggleLocalStorageMsg(SHOW);
     toggleClearStorageButton(SHOW);
 }
 
@@ -37,5 +38,6 @@ function clearStorage() {
     localStorage.removeItem('persistedContacts');
     toggleClearStorageButton(HIDE);
     localStorageMsg.innerHTML = clearStorageMessage;
+    toggleLocalStorageMsg(SHOW);
     fieldElements.contactFNameField.focus();
 }

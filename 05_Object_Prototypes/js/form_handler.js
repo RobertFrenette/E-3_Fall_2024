@@ -83,3 +83,11 @@ function toggleClearStorageButton(showButton) {
         clearStorageButton.classList.add("hide");
     }
 }
+
+function toggleLocalStorageMsg(showMessage) {
+    if (showMessage) {
+        localStorageMsg.classList.remove("hide");
+    } else {
+        localStorageMsg.classList.add("hide");
+    }
+}
