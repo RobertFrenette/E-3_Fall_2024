@@ -37,7 +37,7 @@ window.onload = function () {
     if (!errorMsgs.length) {
       // Save new Contact Object in contacts Array
       contacts.push(
-        new Contact(
+        Contact.createContact(
           contacts.length,
           fieldValues.contactFName,
           fieldValues.contactLName,

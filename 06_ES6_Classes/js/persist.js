@@ -14,7 +14,7 @@ function checkForExistingContacts() {
       // loop through persistedContacts
       persistedContacts.forEach((contact, indx) => {
         contacts.push(
-          new Contact(
+          Contact.createContact(
             indx,
             contact._contactFName,
             contact._contactLName,

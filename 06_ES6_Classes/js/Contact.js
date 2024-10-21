@@ -62,4 +62,29 @@ class Contact {
                         </div>
                     </div>`;
   }
+
+  /*
+    Static methods are ideal for creating utility functions associated with a class, 
+    but don't require access to instance-specific data (such as the getContactHtml() method in this Class).
+    This helps organize code and keeps the class's instance methods focused on instance-specific operations.
+  */
+  static createContact(contactIndx,
+    contactFName,
+    contactLName,
+    contactEmail,
+    contactPhoneAreaCode,
+    contactPhonePrefix,
+    contactPhoneNumber,
+    contactBirthdayMonth,
+    contactBirthdayDay) {
+    return new Contact(contactIndx,
+      contactFName,
+      contactLName,
+      contactEmail,
+      contactPhoneAreaCode,
+      contactPhonePrefix,
+      contactPhoneNumber,
+      contactBirthdayMonth,
+      contactBirthdayDay)
+  }
 }
