@@ -71,7 +71,7 @@ function displayContacts() {
     contactsDiv.innerHTML = "";
 
     // Loop through contacts Array and add the current Contact to page each time through the loop
-    contacts.forEach(contact => {
+    contacts.contactList.forEach(contact => {
         // contactsDiv.innerHTML += contact.display(); // Call to Contact Object display() Prototype Function
         contactsDiv.innerHTML += contact.getContactHtml(); // Call to Contact Object display() Prototype Function
     });

@@ -10,10 +10,11 @@ function checkForExistingContacts() {
 
     if (persistedContacts !== null) {
       persistedContacts = JSON.parse(persistedContacts);
+      persistedContacts = persistedContacts.contactList;
 
       // loop through persistedContacts
       persistedContacts.forEach((contact, indx) => {
-        contacts.push(
+        contacts.contactList.push(
           Contact.createContact(
             indx,
             contact._contactFName,

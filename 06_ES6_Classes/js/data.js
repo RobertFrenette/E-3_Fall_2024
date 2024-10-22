@@ -1,7 +1,7 @@
 "use strict";
 
 // Array to hold Contact Objects
-let contacts = [];
+let contacts = { "contactList": [] };
 // Array to hold error messges
 let errorMsgs = [];
 

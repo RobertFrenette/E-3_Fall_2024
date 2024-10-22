@@ -36,9 +36,9 @@ window.onload = function () {
     // If there is no error, add the new Contact to the page and reset the Form
     if (!errorMsgs.length) {
       // Save new Contact Object in contacts Array
-      contacts.push(
+      contacts.contactList.push(
         Contact.createContact(
-          contacts.length,
+          contacts.contactList.length,
           fieldValues.contactFName,
           fieldValues.contactLName,
           fieldValues.contactEmail,
@@ -67,7 +67,7 @@ window.onload = function () {
 
   // Check Local Storage for existing Contacts
   checkForExistingContacts(contacts);
-  if (contacts.length) {
+  if (contacts.contactList.length) {
     displayContacts();
     localStorageMsg.innerHTML = contactsSavedMessage;
     toggleClearStorageButton(SHOW);
