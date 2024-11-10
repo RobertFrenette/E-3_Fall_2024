@@ -19,13 +19,6 @@ Launch `v1/index.html` in your Browser
 ### Prereqs
 
 - Requires [Node.js](https://nodejs.org/en) to be installed to serve APIs. ( [Video - Install Node.js on a Mac ](https://www.youtube.com/watch?v=MD0yqgMvj4w&list=PLRBkbp6t5gM37UdjMTGZcBs_hoOvCl30p&index=11))
-- Create a `.env` file in the root of the `v2/server` folder and add the following
-
-```
-PORT = 3000
-TEAM_DATA_FILE=data/teams.json
-DRIVER_DATA_FILE=data/drivers.json
-```
 
 ### Init Project
 
