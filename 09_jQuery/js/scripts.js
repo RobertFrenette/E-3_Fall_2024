@@ -30,7 +30,7 @@ function init(teams, teamSelect) {
     });
 }
 
-window.onload = function () {
+$(document).ready(function () {
   // Array to hold Teams Data
   const teams = [];
 
@@ -71,4 +71,4 @@ window.onload = function () {
   });
 
   init(teams, teamSelect);
-};
+});
