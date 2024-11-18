@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+}
+
+.card {
+  max-height: 525px;
+}
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: scale-down;
+}
+
+.team-info,
+.driver-info {
+  font-weight: bold;
+}
+
+#driver-pic {
+  padding-left: 75px;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+#driver-helmet {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+#driver-number {
+  padding-left: 100px;
+}
+
+.hide {
+  display: none;
+}

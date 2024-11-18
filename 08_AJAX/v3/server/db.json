@@ -1,0 +1,286 @@
+{
+    "teams": [
+        {
+            "id": "1",
+            "teamName": "Red Bull",
+            "base": "Milton Keynes, United Kingdom",
+            "teamPrincipal": "Christian Horner",
+            "chassis": "RB20",
+            "powerUnit": "Honda RBPT",
+            "pos": 3,
+            "pts": 544
+        },
+        {
+            "id": "2",
+            "teamName": "Mercedes",
+            "base": "Brackley, United Kingdom",
+            "teamPrincipal": "Toto Wolff",
+            "chassis": "W15",
+            "powerUnit": "Mercedes",
+            "pos": 4,
+            "pts": 382
+        },
+        {
+            "id": "3",
+            "teamName": "Ferrari",
+            "base": "Maranello, Italy",
+            "teamPrincipal": "Frédéric Vasseur",
+            "chassis": "SF-24",
+            "powerUnit": "Ferrari",
+            "pos": 2,
+            "pts": 557
+        },
+        {
+            "id": "4",
+            "teamName": "McLaren",
+            "base": "Woking, United Kingdom",
+            "teamPrincipal": "Andrea Stella",
+            "chassis": "MCL38",
+            "powerUnit": "Mercedes",
+            "pos": 1,
+            "pts": 593
+        },
+        {
+            "id": "5",
+            "teamName": "Aston Martin",
+            "base": "Silverstone, United Kingdom",
+            "teamPrincipal": "Mike Krack",
+            "chassis": "AMR24",
+            "powerUnit": "Mercedes",
+            "pos": 5,
+            "pts": 86
+        },
+        {
+            "id": "6",
+            "teamName": "Alpine",
+            "base": "Enstone, United Kingdom",
+            "teamPrincipal": "Oliver Oakes",
+            "chassis": "A524",
+            "powerUnit": "Renault",
+            "pos": 6,
+            "pts": 49
+        },
+        {
+            "id": "7",
+            "teamName": "Williams",
+            "base": "Grove, United Kingdom",
+            "teamPrincipal": "James Vowles",
+            "chassis": "FW46",
+            "powerUnit": "Mercedes",
+            "pos": 9,
+            "pts": 17
+        },
+        {
+            "id": "8",
+            "teamName": "RB",
+            "base": "Faenza, Italy",
+            "teamPrincipal": "Laurent Mekies",
+            "chassis": "VCARB 01",
+            "powerUnit": "Honda RBPT",
+            "pos": 8,
+            "pts": 44
+        },
+        {
+            "id": "9",
+            "teamName": "Kick Sauber",
+            "base": "Hinwil, Switzerland",
+            "teamPrincipal": "Alessandro Alunni Bravi",
+            "chassis": "C44",
+            "powerUnit": "Ferrari",
+            "pos": 10,
+            "pts": 0
+        },
+        {
+            "id": "10",
+            "teamName": "Haas",
+            "base": "Kannapolis, United States",
+            "teamPrincipal": "Ayao Komatsu",
+            "chassis": "VF-24",
+            "powerUnit": "Ferrari",
+            "pos": 7,
+            "pts": 46
+        }
+    ],
+    "drivers": [
+        {
+            "id": "1",
+            "teamId": "1",
+            "driverName": "Max Verstappen",
+            "driverNumber": 1,
+            "driverPos": 1,
+            "country": "Netherlands",
+            "pts": 393
+        },
+        {
+            "id": "2",
+            "teamId": "1",
+            "driverName": "Sergio Perez",
+            "driverNumber": 11,
+            "driverPos": 8,
+            "country": "Mexico",
+            "pts": 151
+        },
+        {
+            "id": "3",
+            "teamId": "2",
+            "driverName": "Lewis Hamilton",
+            "driverNumber": 44,
+            "driverPos": 7,
+            "country": "United Kingdom",
+            "pts": 190
+        },
+        {
+            "id": "4",
+            "teamId": "5",
+            "driverName": "Fernando Alonso",
+            "driverNumber": 14,
+            "driverPos": 9,
+            "country": "Spain",
+            "pts": 62
+        },
+        {
+            "id": "5",
+            "teamId": "3",
+            "driverName": "Charles Leclerc",
+            "driverNumber": 16,
+            "driverPos": 3,
+            "country": "Monaco",
+            "pts": 307
+        },
+        {
+            "id": "6",
+            "teamId": "4",
+            "driverName": "Lando Norris",
+            "driverNumber": 4,
+            "driverPos": 2,
+            "country": "United Kingdom",
+            "pts": 331
+        },
+        {
+            "id": "7",
+            "teamId": "3",
+            "driverName": "Carlos Sainz",
+            "driverNumber": 55,
+            "driverPos": 5,
+            "country": "Spain",
+            "pts": 244
+        },
+        {
+            "id": "8",
+            "teamId": "2",
+            "driverName": "George Russell",
+            "driverNumber": 63,
+            "driverPos": 6,
+            "country": "United Kingdom",
+            "pts": 192
+        },
+        {
+            "id": "9",
+            "teamId": "4",
+            "driverName": "Oscar Piastri",
+            "driverNumber": 81,
+            "driverPos": 4,
+            "country": "Australia",
+            "pts": 262
+        },
+        {
+            "id": "10",
+            "teamId": "5",
+            "driverName": "Lance Stroll",
+            "driverNumber": 18,
+            "driverPos": 13,
+            "country": "Canada",
+            "pts": 24
+        },
+        {
+            "id": "11",
+            "teamId": "6",
+            "driverName": "Pierre Gasly",
+            "driverNumber": 10,
+            "driverPos": 12,
+            "country": "France",
+            "pts": 26
+        },
+        {
+            "id": "12",
+            "teamId": "6",
+            "driverName": "Esteban Ocon",
+            "driverNumber": 31,
+            "driverPos": 14,
+            "country": "France",
+            "pts": 23
+        },
+        {
+            "id": "13",
+            "teamId": "7",
+            "driverName": "Alex Albon",
+            "driverNumber": 23,
+            "driverPos": 16,
+            "country": "Thailand",
+            "pts": 12
+        },
+        {
+            "id": "14",
+            "teamId": "8",
+            "driverName": "Yuki Tsunoda",
+            "driverNumber": 22,
+            "driverPos": 11,
+            "country": "Japan",
+            "pts": 28
+        },
+        {
+            "id": "15",
+            "teamId": "9",
+            "driverName": "Valtteri Bottas",
+            "driverNumber": 77,
+            "driverPos": 20,
+            "country": "Finland",
+            "pts": 0
+        },
+        {
+            "id": "16",
+            "teamId": "10",
+            "driverName": "Nico Hulkenberg",
+            "driverNumber": 27,
+            "driverPos": 10,
+            "country": "Germany",
+            "pts": 31
+        },
+        {
+            "id": "17",
+            "teamId": "9",
+            "driverName": "Zhou Guanyu",
+            "driverNumber": 24,
+            "driverPos": 19,
+            "country": "China",
+            "pts": 0
+        },
+        {
+            "id": "18",
+            "teamId": "10",
+            "driverName": "Kevin Magnussen",
+            "driverNumber": 20,
+            "driverPos": 15,
+            "country": "Denmark",
+            "pts": 14
+        },
+        {
+            "id": "19",
+            "teamId": "8",
+            "driverName": "Liam Lawson",
+            "driverNumber": 30,
+            "driverPos": 18,
+            "country": "New Zealand",
+            "pts": 4
+        },
+        {
+            "id": "20",
+            "teamId": "7",
+            "driverName": "Franco Colapinto",
+            "driverNumber": 43,
+            "driverPos": 17,
+            "country": "Argentina",
+            "pts": 5
+        }
+    ]
+}

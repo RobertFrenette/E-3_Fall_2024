@@ -1,9 +1,10 @@
 # AJAX Demo
 
-There are two versions of this Demo
+There are three versions of this Demo
 
 - v1. Dynamic HTML Select Elements / DOM Manipulation (w/o AJAX)
 - v2. AJAX (Node.js Express APIs)
+- v3. Local API / Data (json-server)
 
 <hr />
 <br />
@@ -52,3 +53,11 @@ Launch [http://localhost:3000/](http://localhost:3000/) in your Browser
 ### Web Page (AJAX)
 
 - Launch `v2/client/index.html` in your Browser
+
+<br />
+
+## v3. Local API / Data (json-server)
+
+Note: This version is not required for the Course! It is being provided for those interested in serving their own local API / data for the Final Project.
+
+- See README.md in v3 folder
