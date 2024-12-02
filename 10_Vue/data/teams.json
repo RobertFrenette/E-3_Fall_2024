@@ -1,0 +1,82 @@
+[
+	{
+		"id": 0,
+		"teamName": "Red Bull",
+		"base": "Milton Keynes, United Kingdom",
+		"teamPrincipal": "Christian Horner",
+		"chassis": "RB20",
+		"powerUnit": "Honda RBPT"
+	},
+	{
+		"id": 1,
+		"teamName": "Mercedes",
+		"base": "Brackley, United Kingdom",
+		"teamPrincipal": "Toto Wolff",
+		"chassis": "W15",
+		"powerUnit": "Mercedes"
+	},
+	{
+		"id": 2,
+		"teamName": "Ferrari",
+		"base": "Maranello, Italy",
+		"teamPrincipal": "Frédéric Vasseur",
+		"chassis": "SF-24",
+		"powerUnit": "Ferrari"
+	},
+	{
+		"id": 3,
+		"teamName": "McLaren",
+		"base": "Woking, United Kingdom",
+		"teamPrincipal": "Andrea Stella",
+		"chassis": "MCL38",
+		"powerUnit": "Mercedes"
+	},
+	{
+		"id": 4,
+		"teamName": "Aston Martin",
+		"base": "Silverstone, United Kingdom",
+		"teamPrincipal": "Mike Krack",
+		"chassis": "AMR24",
+		"powerUnit": "Mercedes"
+	},
+	{
+		"id": 5,
+		"teamName": "Alpine",
+		"base": "Enstone, United Kingdom",
+		"teamPrincipal": "Oliver Oakes",
+		"chassis": "A524",
+		"powerUnit": "Renault"
+	},
+	{
+		"id": 6,
+		"teamName": "Williams",
+		"base": "Grove, United Kingdom",
+		"teamPrincipal": "James Vowles",
+		"chassis": "FW46",
+		"powerUnit": "Mercedes"
+	},
+	{
+		"id": 7,
+		"teamName": "RB",
+		"base": "Faenza, Italy",
+		"teamPrincipal": "Laurent Mekies",
+		"chassis": "VCARB 01",
+		"powerUnit": "Honda RBPT"
+	},
+	{
+		"id": 8,
+		"teamName": "Kick Sauber",
+		"base": "Hinwil, Switzerland",
+		"teamPrincipal": "Alessandro Alunni Bravi",
+		"chassis": "C44",
+		"powerUnit": "Ferrari"
+	},
+	{
+		"id": 9,
+		"teamName": "Haas",
+		"base": "Kannapolis, United States",
+		"teamPrincipal": "Ayao Komatsu",
+		"chassis": "VF-24",
+		"powerUnit": "Ferrari"
+	}
+]
